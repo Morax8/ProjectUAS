@@ -1,0 +1,17 @@
+export const allButtons = {
+    masuk: { label: '🚪 Masuk Rumah', color: 'bg-blue-600' },
+    tidur: { label: '😴 Tidur', color: 'bg-purple-600' },
+    makan: { label: '🍜 Makan', color: 'bg-green-600' },
+    mandi: { label: '🧼 Mandi', color: 'bg-cyan-600' },
+    mainGame: { label: '🎮 Main Game', color: 'bg-indigo-600' },
+    belajar: { label: '📚 Belajar', color: 'bg-yellow-500' },
+    keluar: { label: '🚪 Keluar Rumah', color: 'bg-red-600' },
+    pergi: { label: '🚪 Pergi', color: 'bg-red-600' },
+    berenang: { label: '🏊‍♂️ Berenang', color: 'bg-blue-600' },
+    mancing: { label: '🎣 Mancing', color: 'bg-green-600' },
+    kerja: { label: '💼 Kerja', color: 'bg-purple-600' },
+    camping: { label: '🏕️ Camping', color: 'bg-orange-600' },
+    pergiPantai: { label: '🏖️ Pergi Ke Pantai', color: 'bg-blue-600' },
+    pergiKampus: { label: '🎓 Pergi Ke Kampus', color: 'bg-blue-600' },
+    pergiGunung: { label: '⛰️ Pergi Ke Gunung', color: 'bg-blue-600' },
+};
