@@ -1,6 +1,6 @@
 // activityMap.js
 export const activityMap = {
-    dlmrumah: ['tidur', 'makan', 'mandi', 'mainGame', 'belajar', 'keluar', 'pulang'],
+    dlmrumah: ['tidur', 'makan', 'mandi', 'mainGame', 'belajar', 'keluar'],
     pantai: ['berenang', 'mancing', 'pulang'],
     kampus: ['belajar', 'pulang'],
     kantor: ['kerja', 'pulang'],
