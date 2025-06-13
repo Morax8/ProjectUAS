@@ -32,13 +32,13 @@ function PhaserGame({ mapKey = 'map', mapUrl = '/maps/Exterior.tmj', character =
         // character
         this.load.image('character', `/assets/images/avatar/${character}.png`);
         //music
-        this.load.audio('bgMusic', '/assets/audio/bgmusic.mp3');
+        this.load.audio('bgMusic', '/assets/audios/bgmusic.mp3');
       }
       create() {
         if (!this.sound.get('bgMusic')?.isPlaying) {
             this.bgMusic = this.sound.add('bgMusic', {
               loop: true,
-              volume: 0.5,
+              volume: 0.05,
             });
             this.bgMusic.play();
           }
