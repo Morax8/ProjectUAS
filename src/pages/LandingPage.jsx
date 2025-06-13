@@ -20,13 +20,13 @@ export default function LandingPage() {
             key: "boy",
             name: "Boy",
             desc: "A normal 17 years old school boy with a lot of interest",
-            img: "/avatar/boy.png", // akses langsung via public/
+            img: "avatar/boy.png", // akses langsung via public/
         },
         {
             key: "girl",
             name: "Girl",
             desc: "A normal 17 years old school girl with a lot of interest",
-            img: "/avatar/girl.png",
+            img: "avatar/girl.png",
         },
     ];
 
